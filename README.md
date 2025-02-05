@@ -1,38 +1,38 @@
-# devops-tools-installation
+### devops-tools-installation
 Every DevOps tool set to be installed
 
-# Brew - Mac OS package manager
+### Brew - Mac OS package manager
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# Flycut - Copy-Paste buffer manager
+### Flycut - Copy-Paste buffer manager
 brew install --cask flycut
 
-# Visual Studio Code
+### Visual Studio Code
 brew install --cask visual-studio-code
 
-# Kubectl and Kubectx
+### Kubectl and Kubectx
 brew install kubectl
 brew install kubectx
 
-# Helm
+### Helm
 brew install helm
 
-# Terraform
+### Terraform
 brew tap hashicorp/tap
 brew install hashicorp/tap/terraform
 
-# Suggestions
+### Suggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git \
     ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions \
     ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
-# Terminal Iterm2 + plugins
+### Terminal Iterm2 + plugins
 brew install --cask iterm2
 brew install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-# Tooling
+### Tooling
 brew install vim
 brew install git
 brew install python
@@ -43,7 +43,7 @@ brew install go
 brew install node
 brew install groovy
 
-# Enable plugins under ~/.zshrc
+### Enable plugins under ~/.zshrc
 plugins=(
   git
   docker
