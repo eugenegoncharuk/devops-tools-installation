@@ -74,8 +74,8 @@ plugins=(\
   git\
   docker\
   fzf\
-  httpie\
   minikube\
+  kube-ps1\
   zsh-syntax-highlighting\
   zsh-autosuggestions\
 )' ~/.zshrc
