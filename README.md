@@ -69,15 +69,16 @@ git clone https://github.com/zsh-users/zsh-autosuggestions \
 ### 🔌 Enable Plugins in `~/.zshrc`
 Add the following plugins to your **.zshrc** file:
 ```sh
-plugins=(
-  git
-  docker
-  fzf
-  httpie
-  minikube
-  zsh-syntax-highlighting
-  zsh-autosuggestions
-)
+sed -i '' '/^plugins=/,/^)/c\
+plugins=(\
+  git\
+  docker\
+  fzf\
+  httpie\
+  minikube\
+  zsh-syntax-highlighting\
+  zsh-autosuggestions\
+)' ~/.zshrc
 ```
 
 ---
