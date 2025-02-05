@@ -52,6 +52,8 @@ Install **iTerm2**, **Zsh**, and **Oh My Zsh**.
 brew install --cask iterm2
 brew install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+brew install kube-ps1
+brew install fzf
 ```
 
 ### 🧩 Zsh Plugins
