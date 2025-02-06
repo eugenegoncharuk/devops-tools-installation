@@ -75,7 +75,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions \
     ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 
-### 🔌 Enable Plugins in `~/.zshrc`
+### 🔌 Enabled Plugins in `~/.zshrc`
 Add the following plugins to your **.zshrc** file:
 ```sh
 plugins=(
