@@ -59,6 +59,15 @@ brew install hashicorp/tap/terraform
 
 ### 🖥 Terminal & Zsh Setup
 Install **iTerm2**, **Zsh**, and **Oh My Zsh**.
+
+Keyboard shortcut to jump between words in iTerm2:
+1. Click on iTerm2 and open “Preferences”
+2. Click on “Profiles”
+3. Select your profile from the left (in my case “Default”)
+4. Click on “Keys” tab
+5. Click “Key Mappings” tab
+6. Click the “Presets” dropdown and select “Natural Text Editing”
+   
 ```sh
 brew install --cask iterm2
 brew install zsh
