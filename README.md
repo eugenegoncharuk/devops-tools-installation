@@ -82,7 +82,7 @@ plugins=(
   git
   docker
   fzf
-  httpie
+  kubectl
   minikube
   zsh-syntax-highlighting
   zsh-autosuggestions
