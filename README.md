@@ -5,6 +5,7 @@ To automate the setup process, run the following script:
 
 ```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/eugenegoncharuk/devops-tools-installation/main/install.sh)"
+```
 
 ---
 
