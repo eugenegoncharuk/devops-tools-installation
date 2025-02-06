@@ -9,6 +9,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/eugenegoncharuk/devops-too
 
 ---
 
+## This script includes the tooling listed below
+
 ## 📦 Package Manager (Mac OS)
 Ensure **Homebrew** is installed before proceeding with other installations.
 ```sh
