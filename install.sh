@@ -36,7 +36,10 @@ plugins=(\
   minikube\
   zsh-syntax-highlighting\
   zsh-autosuggestions\
-)' ~/.zshrc
+)\
+source $ZSH/oh-my-zsh.sh\
+source /opt/homebrew/opt/kube-ps1/share/kube-ps1.sh\
+PS1='$(kube_ps1)'$PS1' ~/.zshrc
 
 # Install additional tools
 brew install vim git python azure-cli wget tree go node groovy
