@@ -68,9 +68,8 @@ Keyboard shortcut to jump between words in iTerm2:
 5. Click “Key Mappings” tab
 6. Click the “Presets” dropdown and select “Natural Text Editing”
 
-and also to correcnty delete words and lines in terminal do this:
+and also to correctly delete words and lines in terminal do this:
 <img width="686" alt="image" src="https://github.com/user-attachments/assets/6630fa96-a12a-4b06-8708-9683bb27e1a4" />
-
 
 ```sh
 brew install --cask iterm2
