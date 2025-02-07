@@ -40,8 +40,8 @@ plugins=(\
 )\
 source $ZSH/oh-my-zsh.sh\
 source /opt/homebrew/opt/kube-ps1/share/kube-ps1.sh\
-PS1=''$(pwd) \$''\
-PS1=''\$(kube_ps1)''\$PS1\
+PS1='$(pwd) \$'\
+PS1='\$(kube_ps1)'\$PS1\
 '  ~/.zshrc
 
 # Install additional tools
