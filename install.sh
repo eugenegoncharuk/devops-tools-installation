@@ -9,6 +9,7 @@ brew install --cask visual-studio-code
 brew install kubectl
 brew install kubectx
 brew install helm
+brew install stern
 
 # Install Terraform
 brew tap hashicorp/tap
