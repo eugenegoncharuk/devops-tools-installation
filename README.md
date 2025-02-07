@@ -113,8 +113,7 @@ brew install azure-cli
 brew install wget
 brew install tree
 brew install go
-brew install node
-brew install groovy
+brew install stern
 ```
 
 ---
