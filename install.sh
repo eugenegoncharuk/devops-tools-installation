@@ -38,9 +38,20 @@ plugins=(\
   zsh-syntax-highlighting\
   zsh-autosuggestions\
 )\
+\
+function parse_git_branch() {\
+    git branch 2> /dev/null | sed -n -e 's/^\* \(.*\)/[\1]/p'\
+}\
+\
+COLOR_DEF=$'%f'\
+COLOR_USR=$'%F{243}'\
+COLOR_DIR=$'%F{197}'\
+COLOR_GIT=$'%F{39}'\
+setopt PROMPT_SUBST\
+\
 source $ZSH/oh-my-zsh.sh\
 source /opt/homebrew/opt/kube-ps1/share/kube-ps1.sh\
-PS1='$(pwd) \$'\
+PS1='${COLOR_USR}%n:${COLOR_DIR}%~ ${COLOR_GIT}$(parse_git_branch)${COLOR_DEF}\$ '\
 PS1='$(kube_ps1)'$PS1\
 '~/.zshrc
 
